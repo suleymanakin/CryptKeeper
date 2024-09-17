@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>CryptKeeper uygulaması, dosyalarınızı yüksek güvenlik standartlarına göre şifrelemek ve deşifre etmek için geliştirilmiş kapsamlı bir araçtır. AES-256 simetrik şifreleme algoritmasını kullanarak, verilerinizi endüstri standardı güvenlik ile korur.
+
+Özellikler:
+
+Gelişmiş Şifreleme: AES-256 algoritması, verilerinizi güçlü bir şekilde şifreleyerek yetkisiz erişimlerden korur. Bu algoritma, günümüzde en yüksek güvenlik seviyesine sahip şifreleme yöntemlerinden biridir ve hassas bilgilerinizin güvenliğini sağlar.
+
+Kolay Kullanım: Kullanıcı dostu arayüzü sayesinde, dosyalarınızı hızlı ve kolay bir şekilde şifreleyebilir ve deşifre edebilirsiniz. Şifreleme ve deşifreleme işlemleri birkaç adımda tamamlanır, böylece kullanıcı deneyimi ön planda tutulur.
+
+Dosya Bütünlüğü: CryptKeeper, şifrelenen dosyaların bütünlüğünü korur. Şifreleme ve deşifreleme süreçlerinde dosyalarınızda herhangi bir bozulma veya kayıptan endişe etmenize gerek kalmaz.
+
+Güvenlik Önceliği: Uygulama, veri güvenliğini öncelikli olarak ele alır ve byte düzeyinde şifreleme yapar. Kullanıcı verileri ve şifreleme anahtarları yüksek düzeyde korunur, böylece bilgilerinizin güvende olduğundan emin olabilirsiniz.
+
+CryptKeeper, dosyalarınızın gizliliğini ve güvenliğini sağlamak için ihtiyacınız olan güçlü araçlardan birini sunar. Kişisel verilerinizden iş dosyalarınıza kadar her türlü bilgi, bu uygulama ile güvence altına alınır. Veri güvenliği konusunda endişeleriniz varsa, CryptKeeper size güvenli ve etkili bir çözüm sunar.</value>
+  </data>
 </root>

@@ -1,4 +1,5 @@
-﻿using CryptKeeper.UserControls;
+﻿using CryptKeeper.Classes;
+using CryptKeeper.UserControls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,7 +18,7 @@ namespace CryptKeeper
         {
             InitializeComponent();
         }
-
+        
         private void LoadControl(UserControl control)
         {
             pnlContainer.Dock = DockStyle.Fill;
@@ -64,6 +65,13 @@ namespace CryptKeeper
         private void pbxMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            SecretKeyHelper secretKeyHelper = new SecretKeyHelper();
+            secretKeyHelper.ReadSecretKey();
+            EncryptionHelper.InitializeSecretKey();
         }
     }
 }

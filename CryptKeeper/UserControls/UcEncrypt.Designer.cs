@@ -37,6 +37,7 @@
             this.lblStatus = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tbxPath = new System.Windows.Forms.TextBox();
+            this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.SuspendLayout();
             // 
             // label1
@@ -177,5 +178,6 @@
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox tbxPath;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
     }
 }

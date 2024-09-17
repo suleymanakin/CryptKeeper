@@ -8,8 +8,8 @@ namespace CryptKeeper.Classes
 {
     public class EncryptionHelper
     {
-        private static readonly byte[] Key = Convert.FromBase64String("21YFQOLCQDeECkaACgNPiNtTKdPb1/IegJE6Vy3xc+c=");
-        private static readonly byte[] IV = Convert.FromBase64String("05Lj0RYb+4FUrNYgU+wTdQ==");
+        private static byte[] Key;
+        private static byte[] IV;
 
         private static int successfulOperations = 0;
         private static int failedOperations = 0;
@@ -46,9 +46,16 @@ namespace CryptKeeper.Classes
             failedOperations = 0;
         }
 
+        public static void InitializeSecretKey()
+        {
+            var secretKeyHelper = new SecretKeyHelper();
+            var (key, iv) = secretKeyHelper.ReadSecretKey();
+            Key = key;
+            IV = iv;
+        }
+
         public static bool EncryptFile(string inputFilePath)
         {
-
             stopwatch.Start();
 
             try
