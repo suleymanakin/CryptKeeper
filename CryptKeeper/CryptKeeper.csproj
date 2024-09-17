@@ -60,6 +60,12 @@
   <ItemGroup>
     <Compile Include="Classes\EncryptionHelper.cs" />
     <Compile Include="Classes\SecretKeyHelper.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,11 +92,11 @@
     <Compile Include="UserControls\UcEncrypt.Designer.cs">
       <DependentUpon>UcEncrypt.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\UcHelp.cs">
+    <Compile Include="UserControls\UcDeveloper.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\UcHelp.Designer.cs">
-      <DependentUpon>UcHelp.cs</DependentUpon>
+    <Compile Include="UserControls\UcDeveloper.Designer.cs">
+      <DependentUpon>UcDeveloper.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\UcSettings.cs">
       <SubType>UserControl</SubType>
@@ -98,6 +104,9 @@
     <Compile Include="UserControls\UcSettings.Designer.cs">
       <DependentUpon>UcSettings.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,8 +129,8 @@
     <EmbeddedResource Include="UserControls\UcEncrypt.resx">
       <DependentUpon>UcEncrypt.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UcHelp.resx">
-      <DependentUpon>UcHelp.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\UcDeveloper.resx">
+      <DependentUpon>UcDeveloper.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UcSettings.resx">
       <DependentUpon>UcSettings.cs</DependentUpon>

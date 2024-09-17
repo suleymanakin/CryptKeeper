@@ -35,7 +35,7 @@
             this.pbxClose = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlMenu = new System.Windows.Forms.Panel();
-            this.btnHelp = new Guna.UI2.WinForms.Guna2Button();
+            this.btnDeveloper = new Guna.UI2.WinForms.Guna2Button();
             this.btnAbout = new Guna.UI2.WinForms.Guna2Button();
             this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
             this.btnDecrypt = new Guna.UI2.WinForms.Guna2Button();
@@ -111,7 +111,7 @@
             // pnlMenu
             // 
             this.pnlMenu.BackColor = System.Drawing.Color.White;
-            this.pnlMenu.Controls.Add(this.btnHelp);
+            this.pnlMenu.Controls.Add(this.btnDeveloper);
             this.pnlMenu.Controls.Add(this.btnAbout);
             this.pnlMenu.Controls.Add(this.btnSettings);
             this.pnlMenu.Controls.Add(this.btnDecrypt);
@@ -122,28 +122,28 @@
             this.pnlMenu.Size = new System.Drawing.Size(1100, 60);
             this.pnlMenu.TabIndex = 1;
             // 
-            // btnHelp
+            // btnDeveloper
             // 
-            this.btnHelp.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnHelp.CheckedState.CustomBorderColor = System.Drawing.Color.Red;
-            this.btnHelp.CheckedState.FillColor = System.Drawing.Color.White;
-            this.btnHelp.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 2);
-            this.btnHelp.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnHelp.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnHelp.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHelp.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnHelp.FillColor = System.Drawing.Color.White;
-            this.btnHelp.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnHelp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnHelp.HoverState.CustomBorderColor = System.Drawing.Color.Red;
-            this.btnHelp.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnHelp.HoverState.ForeColor = System.Drawing.Color.Red;
-            this.btnHelp.Location = new System.Drawing.Point(915, 4);
-            this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(170, 50);
-            this.btnHelp.TabIndex = 0;
-            this.btnHelp.Text = "Help";
-            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            this.btnDeveloper.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnDeveloper.CheckedState.CustomBorderColor = System.Drawing.Color.Red;
+            this.btnDeveloper.CheckedState.FillColor = System.Drawing.Color.White;
+            this.btnDeveloper.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 2);
+            this.btnDeveloper.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDeveloper.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDeveloper.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDeveloper.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDeveloper.FillColor = System.Drawing.Color.White;
+            this.btnDeveloper.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnDeveloper.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnDeveloper.HoverState.CustomBorderColor = System.Drawing.Color.Red;
+            this.btnDeveloper.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnDeveloper.HoverState.ForeColor = System.Drawing.Color.Red;
+            this.btnDeveloper.Location = new System.Drawing.Point(915, 6);
+            this.btnDeveloper.Name = "btnDeveloper";
+            this.btnDeveloper.Size = new System.Drawing.Size(170, 50);
+            this.btnDeveloper.TabIndex = 0;
+            this.btnDeveloper.Text = "Developer";
+            this.btnDeveloper.Click += new System.EventHandler(this.btnDeveloper_Click);
             // 
             // btnAbout
             // 
@@ -294,7 +294,7 @@
         private System.Windows.Forms.Panel pnlMenu;
         private System.Windows.Forms.Panel pnlContainer;
         private Guna.UI2.WinForms.Guna2Button btnEncrypt;
-        private Guna.UI2.WinForms.Guna2Button btnHelp;
+        private Guna.UI2.WinForms.Guna2Button btnDeveloper;
         private Guna.UI2.WinForms.Guna2Button btnAbout;
         private Guna.UI2.WinForms.Guna2Button btnSettings;
         private Guna.UI2.WinForms.Guna2Button btnDecrypt;

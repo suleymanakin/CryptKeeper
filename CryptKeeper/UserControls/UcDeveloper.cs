@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CryptKeeper.UserControls
 {
-    public partial class UcHelp : UserControl
+    public partial class UcDeveloper : UserControl
     {
-        public UcHelp()
+        public UcDeveloper()
         {
             InitializeComponent();
         }

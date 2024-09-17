@@ -1,6 +1,6 @@
 ﻿namespace CryptKeeper.UserControls
 {
-    partial class UcHelp
+    partial class UcDeveloper
     {
         /// <summary> 
         /// Required designer variable.
@@ -34,18 +34,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F);
             this.label1.Location = new System.Drawing.Point(532, 324);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 16);
+            this.label1.Size = new System.Drawing.Size(58, 21);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Help";
+            this.label1.Text = "Social";
             // 
-            // UcHelp
+            // UcDeveloper
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
-            this.Name = "UcHelp";
+            this.Name = "UcDeveloper";
             this.Size = new System.Drawing.Size(1100, 665);
             this.ResumeLayout(false);
             this.PerformLayout();

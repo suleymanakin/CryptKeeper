@@ -51,15 +51,15 @@ namespace CryptKeeper
             LoadControl(uc);
         }
 
-        private void btnHelp_Click(object sender, EventArgs e)
+        private void btnDeveloper_Click(object sender, EventArgs e)
         {
-            UcHelp uc = new UcHelp();
+            UcDeveloper uc = new UcDeveloper();
             LoadControl(uc);
         }
 
         private void pbxClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Environment.Exit(0);
         }
 
         private void pbxMinimize_Click(object sender, EventArgs e)
