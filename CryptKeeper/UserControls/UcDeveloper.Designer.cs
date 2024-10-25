@@ -35,11 +35,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.label1.Location = new System.Drawing.Point(532, 324);
+            this.label1.Location = new System.Drawing.Point(472, 322);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 21);
+            this.label1.Size = new System.Drawing.Size(156, 21);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Social";
+            this.label1.Text = "About Developer";
             // 
             // UcDeveloper
             // 
